@@ -1,3 +1,4 @@
+RETO 1
 URL http://127.0.0.1:5500/rueda-libre/index.html
 PROTOCOLO: http
 HOST: 127.0.0.1:5500 
@@ -12,3 +13,12 @@ Roles en la página de:
 HTML: formar la estructura de la página (dónde va cada texto, imagen, hipervínculo)
 CSS: Mostrar el diseño de los elementos de la página (color, tipo de letra)
 JavaScript: Encargarse de la respuesta de la interacción del usuario con la página (botones, links que llevan a partes importantes dentro o fuera de la página)
+
+RETO 4
+Rutas que usé (dentro de la etiqueta de hipervínculo <a>)
+index.html → reservas.html: paginas/reservas.html
+index.html → tarifas.html: paginas/tarifas.html
+reservas.html → tarifas.html: tarifas.html
+reservas.html →  index.html: ../index.html
+tarifas.html →  index.html: ../index.html
+tarifas.html → reservas.html: reservas.html
