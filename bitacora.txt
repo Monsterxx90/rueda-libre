@@ -56,3 +56,46 @@ INDEX:
 RETO 6
 Justificación de 3 controles más adecuados para cada dato del cliente:
 El área de texto es indispensable para que las personas puedan escribir sus requerimientos libremente. Las opciones únicas están en el área de elegir la bicicleta y si quieren o no el recorrido guiado, es importante que solo se pueda elegir una opción para poder hacer la reserva adecuadamente. La lista de despliegue para los horarios que ofrecemos es una buena alternativa para cambiar un poco la estructura visual y mantener el orden en el formulario.
+
+
+RETO 7
+
+Campo: Nombre
+Dato de prueba: as
+Resultado esperado: Mensaje de error que no hay caracteres suficientes
+Resultado obtenido: Mensaje: "Please use at least 3 characters (you are currently using 2 characters)
+
+Campo: Número de Documento
+Dato de prueba: asdfgg
+Resultado esperado: No permite el texto como input
+Resultado obtenido: Mensaje: "Please match the requested format"
+
+Campo: Correo Electrónico
+Dato de prueba: sofiacruz.com
+Resultado esperado: No permite ese texto como email
+Resultado obtenido: Mensaje: "Please enter an email address"
+
+Campo: Celular
+Dato de prueba: 4561237895
+Resultado esperado: No permite ese número como celular
+Resultado obtenido: Mensaje: "Please match the requested format"  
+
+Campo: Fecha
+Dato de prueba: 8/5/2023
+Resultado esperado: No deja pasar de campo
+Resultado obtenido: Mensaje: "Please select a value that is no earlier than 11/01/2026"
+
+Campo: Plan
+Dato de prueba: "Sin selección"
+Resultado esperado: Saca error
+Resultado obtenido: Al darle clic a "Enviar", aparece un mensaje: "Please select an item in the list"
+
+Campo: Términos y condiciones
+Dato de prueba: "Sin selección"
+Resultado esperado: Saca error
+Resultado obtenido: Mensaje: "Please check this box if you want to proceed"
+
+Campo: Número de Documento
+Dato de prueba: 45682
+Resultado esperado: Saca error porque le faltan dígitos
+Resultado obtenido: Mensaje: "Please use at least 6 characters (you are currently using 5 characters)."
