@@ -52,3 +52,7 @@ INDEX:
 - Artículos: Cada servicio (Alquiler de bicicletas, Recorridos guiados, Taller básico)
 - Contenido complementario: Si tienes dudas, escríbenos al correo
 - Pie: © 2026 Rueda Libre. Todos los derechos reservados. Ciudad; email
+
+RETO 6
+Justificación de 3 controles más adecuados para cada dato del cliente:
+El área de texto es indispensable para que las personas puedan escribir sus requerimientos libremente. Las opciones únicas están en el área de elegir la bicicleta y si quieren o no el recorrido guiado, es importante que solo se pueda elegir una opción para poder hacer la reserva adecuadamente. La lista de despliegue para los horarios que ofrecemos es una buena alternativa para cambiar un poco la estructura visual y mantener el orden en el formulario.
