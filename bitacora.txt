@@ -22,3 +22,33 @@ reservas.html → tarifas.html: tarifas.html
 reservas.html →  index.html: ../index.html
 tarifas.html →  index.html: ../index.html
 tarifas.html → reservas.html: reservas.html
+
+RETO 5
+Regiones de cada página
+
+TARIFAS:
+- Encabezado: Imagen de logo, menú de navegación, título principal e introducción
+- Navegación: Menú principal, lista desordenada con los enlaces a las otras páginas. Menú secundario para regresar al inicio luego de la tabla de rutas
+- Contenido principal: Las tablas con los precios
+- Secciones: Cada tabla
+- Artículos: NA
+- Contenido complementario: Información importante
+- Pie: © 2026 Rueda Libre. Todos los derechos reservados. Ciudad; email
+
+RESERVAS:
+- Encabezado: Imagen de logo, menú de navegación, título principal y link para reservar
+- Navegación: Menú principal, lista desordenada con los enlaces a las otras páginas
+- Contenido principal: Horarios
+- Secciones: NA
+- Artículos: NA
+- Contenido complementario: Horarios
+- Pie: © 2026 Rueda Libre. Todos los derechos reservados. Ciudad; email
+
+INDEX:
+- Encabezado: Imagen de logo, menú de navegación, título principal e introducción
+- Navegación: Menú principal, lista desordenada con los enlaces a las otras páginas
+- Contenido principal: Quiénes somos, Nuestros Servicios, Cómo Alquilar, Encuéntranos
+- Secciones: Quiénes somos, Nuestros Servicios, Cómo Alquilar, Encuéntranos
+- Artículos: Cada servicio (Alquiler de bicicletas, Recorridos guiados, Taller básico)
+- Contenido complementario: Si tienes dudas, escríbenos al correo
+- Pie: © 2026 Rueda Libre. Todos los derechos reservados. Ciudad; email
