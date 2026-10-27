@@ -99,3 +99,23 @@ Campo: Número de Documento
 Dato de prueba: 45682
 Resultado esperado: Saca error porque le faltan dígitos
 Resultado obtenido: Mensaje: "Please use at least 6 characters (you are currently using 5 characters)."
+
+RETO 8
+
+CORRECCIONES: Nombré los textos de los enlaces de mejor manera para que se entendieran fuera de contexto. Reconfirmé que todas las páginas son accesibles por teclado
+
+COMBINACIONES DE COLORES
+Blanco sobre Verde Ruta: Aceptable para texto normal, texto grande y objetos gráficos o de interacción del usuario
+Blanco sobre Naranja Pedal: NO Aceptable para ninguno
+Azul Noche sobre Naranja Pedal: Aceptable para texto normal, texto grande y objetos gráficos o de interacción del usuario
+Azul Noche sobre Crema: Aceptable para texto normal, texto grande y objetos gráficos o de interacción del usuario
+Gris Asfalto sobre Crema: Aceptable para texto normal, texto grande y objetos gráficos o de interacción del usuario
+Verde Ruta sobre Crema: Aceptable para texto normal, texto grande y objetos gráficos o de interacción del usuario
+Naranja Pedal sobre Crema: NO Aceptable para ninguno
+Blanco sobre Azul Noche: Aceptable para texto normal, texto grande y objetos gráficos o de interacción del usuario
+
+MI ELECCIÓN:
+Verde Ruta -> Botones y enlaces
+Azul Noche -> Títulos y encabezados
+Crema -> Fondo
+Gris Asfalto (y Negro de ser necesario) -> Texto
