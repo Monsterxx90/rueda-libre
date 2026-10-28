@@ -121,3 +121,17 @@ Crema -> Fondo
 Gris Asfalto (y Negro de ser necesario) -> Texto
 
 ENLACE PÁGINA: https://monsterxx90.github.io/rueda-libre/
+
+
+RETO 9
+
+Inspección de <p> en index.html: 
+Propiedad heredada → font-family (Open Sans). En Styles aparece "Inherited from body"
+Propiedad no heredada → background-color. En Computed aparece "rgba(0, 0, 0, 0)"
+
+
+
+
+
+
+→

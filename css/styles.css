@@ -1,0 +1,31 @@
+:root {
+    --titulos-encabezados: #14213D;
+    --fondo: #FAF6EF;
+    --botones-enlaces: #1E7A4F;
+    --naranja-pedal: #F39A2B;
+    --texto: #5B6470;
+
+    --fuente-titulos: 'Montserrat', sans-serif;
+    --fuente-texto: 'Open Sans', sans-serif;
+
+    --espacio-s: 0.5rem;
+    --espacio-m: 1rem;
+    --espacio-l: 2rem;
+
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--fuente-texto);
+  color: var(--texto);
+  background-color: var(--fondo);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--fuente-titulos);
+  color: var(--titulos-encabezados);
+}
