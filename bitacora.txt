@@ -130,7 +130,10 @@ Propiedad heredada → font-family (Open Sans). En Styles aparece "Inherited fro
 Propiedad no heredada → background-color. En Computed aparece "rgba(0, 0, 0, 0)"
 
 
+RETO 10
 
+La especificidad se cuenta así: #menu a = 1 id + 1 elemento (1,0,1), y .activo = 1 clase (0,1,0). Gana el id. #menu a (id + elemento) pesa más
+que .activo (solo clase), por lo que la regla #menu a es la que se aplica
 
 
 
