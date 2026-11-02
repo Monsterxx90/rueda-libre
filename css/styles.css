@@ -15,22 +15,64 @@
 
 }
 
-/** {
+/* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
   */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 body {
   font-family: var(--fuente-texto);
   color: var(--texto);
   background-color: var(--fondo);
+  padding: var(--espacio-l);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--fuente-titulos);
   color: var(--titulos-encabezados);
+}
+
+header, main, footer{
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 var(--espacio-m);
+}
+
+.portada {
+  min-height: 80vh;
+}
+
+.tarjeta {
+  background-color: var(--fondo);
+  border: 2px solid var(--titulos-encabezados);
+  border-radius: var(--espacio-m);
+  padding: var(--espacio-m);
+  margin-bottom: var(--espacio-l);
+  max-width: 25rem;
+  text-align: center;
+}
+
+.tarjeta p {
+  text-align: justify;
+  hyphens: auto;
+}
+
+.tarjeta img {
+  display: block;
+  width: 100%;
+  height: auto;
+ 
+  
 }
 
 #menu a {
@@ -51,16 +93,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #menu a:focus {
-  outline: 3px solid var(--titulos-encabezados);
+  outline: 3px solid var(--botones-enlaces);
   outline-offset: 2px;
 }
+
+nav ul {
+  display: flex;
+  gap: var(--espacio-m);
+  list-style: none;
+  padding: 0;
+}
+
 
 .btn-cta {
   display: inline-block;
   padding: var(--espacio-s) var(--espacio-l);
   background-color: var(--botones-enlaces);
   color: var(--blanco);
-  border: 2px solid var(--botones-enlaces);
+  /*border: 2px solid var(--botones-enlaces);*/
   border-radius: 0.5rem;
   font-family: var(--fuente-titulos);
   font-weight: 700;
@@ -71,10 +121,13 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--titulos-encabezados);
   color: var(--blanco);
   border: 2px solid var(--titulos-encabezados);
+  outline: 3px solid var(--titulos-encabezados);
+  outline-offset: 3px;
 }
 
 .btn-cta:focus {
-  outline: 3px solid var(--botones-enlaces);
+  background-color: var(--titulos-encabezados);
+  outline: 3px solid var(--titulos-encabezados);
   outline-offset: 3px;
 }
 
@@ -91,4 +144,62 @@ form textarea:focus {
   outline: 3px solid var(--botones-enlaces);
   outline-offset: 2px;
   border-color: var(--botones-enlaces);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: var(--espacio-l);
+}
+
+th,
+td {
+  padding: var(--espacio-s) var(--espacio-m);
+  border: 1px solid var(--titulos-encabezados);
+  text-align: left;
+}
+
+th {
+  background-color: var(--titulos-encabezados);
+  color: var(--fondo);
+  font-family: var(--fuente-titulos);
+}
+
+form label {
+  display: block;
+  margin-bottom: var(--espacio-s);
+}
+
+form input[type="radio"] + label,
+form input[type="checkbox"] + label {
+  display: inline;
+}
+
+form input:not([type="radio"]):not([type="checkbox"]),
+form select,
+form textarea {
+  width: 100%;
+  padding: var(--espacio-s);
+}
+
+form fieldset {
+  margin-bottom: var(--espacio-l);
+  padding: var(--espacio-m);
+}
+
+form button {
+  padding: var(--espacio-m) var(--espacio-l);
+  background-color: var(--botones-enlaces);
+  color: var(--blanco);
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+form button:hover,
+form button:focus {
+  background-color: var(--titulos-encabezados);
+  outline: 3px solid var(--titulos-encabezados);
+  outline-offset: 3px;
 }
