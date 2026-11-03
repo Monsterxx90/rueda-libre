@@ -155,4 +155,13 @@ RETO 1
 Al estrechar la ventana del navegador, los elementos del footer y del menú se van ajustando proporcionalmente al espacio que tienen, hasta que terminan bajando y apilándose de forma vertical hacia el lado izquierdo de la pantalla cuando ya no caben lateralmente
 
 
+RETO 2
+
+Modo dispositivo de DevTools:
+
+A 1280px se ven 3 columnas
+A 900px se ven 2 columnas
+A 500px se ve solo 1 columna
+
+
 →
