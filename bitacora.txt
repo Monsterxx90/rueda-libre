@@ -142,4 +142,8 @@ VALORES DEL ANCHO DE LA TARJETA CON CONTENT-BOX: Centro: 400px, Padding: 32px (1
 VALORES DEL ANCHO DE LA TARJETA CON BORDER-BOX: Centro: 364px, Padding: 32px (16px izq + 16px der), Border: 4px (2px izq + 2px der) → Ancho Total: 400px (364 + 32 + 4)
 
 
+RETO 12
+
+Construí cada sección y página como lo solicitó el cliente, con sus especificaciones y funcionalidades. Lo que mejoraría es el aspecto visual, pequeños detalles para hacer que toda la página quede más bonita, eso lo iré puliendo antes de la entrega final.
+
 →
