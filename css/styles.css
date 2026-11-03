@@ -51,6 +51,14 @@ footer{
   padding: 0 var(--espacio-m);
 }
 
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--espacio-l);
+}
+
 
 .portada {
   min-height: 80vh;
@@ -59,15 +67,33 @@ footer{
 /*Estilos del menú de navegación*/
 nav ul {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--espacio-m);
   list-style: none;
+  margin: 0;
   padding: 0;
 }
 
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--espacio-m);
+}
+
+.marca {
+  font-family: var(--fuente-titulos);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--titulos-encabezados);
+  text-decoration: none;
+}
+
 #menu a {
+  display: block;
   color: var(--botones-enlaces);
   text-decoration: none;
-  display: inline-block;
   padding: var(--espacio-s) var(--espacio-m);
 }
 
@@ -80,6 +106,8 @@ nav ul {
   background-color: var(--botones-enlaces);
   color: var(--blanco);
 }
+
+
 
 /*Botones*/
 .btn-cta,

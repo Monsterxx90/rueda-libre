@@ -1,3 +1,5 @@
+~~SEMANA 1~~
+
 RETO 1
 URL http://127.0.0.1:5500/rueda-libre/index.html
 PROTOCOLO: http
@@ -145,5 +147,12 @@ VALORES DEL ANCHO DE LA TARJETA CON BORDER-BOX: Centro: 364px, Padding: 32px (16
 RETO 12
 
 Construí cada sección y página como lo solicitó el cliente, con sus especificaciones y funcionalidades. Lo que mejoraría es el aspecto visual, pequeños detalles para hacer que toda la página quede más bonita, eso lo iré puliendo antes de la entrega final.
+
+
+*~SEMANA 2~*
+
+RETO 1
+Al estrechar la ventana del navegador, los elementos del footer y del menú se van ajustando proporcionalmente al espacio que tienen, hasta que terminan bajando y apilándose de forma vertical hacia el lado izquierdo de la pantalla cuando ya no caben lateralmente
+
 
 →
