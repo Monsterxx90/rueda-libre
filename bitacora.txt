@@ -175,4 +175,13 @@ Encabezado → Flexbox para alinear y repartir en una dirección.
 Pie → Flexbox para alinear y repartir en una dirección.
 
 
+RETO 4
+
+Problemas que solucionamos:
+
+-En DevTools a 360 px → La tabla de recorridos se desbordaba de la pantalla. Convertí cada fila de las tablas en una tarjeta para el celular.
+-Las imágenes que se salían del contenedor las "encogimos" al ancho de su contenedor y conservamos su proporción.
+
+
+
 →
