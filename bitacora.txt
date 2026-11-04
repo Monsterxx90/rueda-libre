@@ -152,6 +152,7 @@ Construí cada sección y página como lo solicitó el cliente, con sus especifi
 *~SEMANA 2~*
 
 RETO 1
+
 Al estrechar la ventana del navegador, los elementos del footer y del menú se van ajustando proporcionalmente al espacio que tienen, hasta que terminan bajando y apilándose de forma vertical hacia el lado izquierdo de la pantalla cuando ya no caben lateralmente
 
 
@@ -162,6 +163,16 @@ Modo dispositivo de DevTools:
 A 1280px se ven 3 columnas
 A 900px se ven 2 columnas
 A 500px se ve solo 1 columna
+
+
+RETO 3
+
+Portada → Grid, para distribuir los elementos en 2 columnas.
+Galería → Grid, para poner las 3 columnas iguales y Flexbox dentro de cada tarjeta para apilar la información.
+Reservas → Grid, la proporción y las columnas iguales se acomodan con grid.
+Fila del formulario → Grid, los dos campos son iguales y alineados, y Grid los pone en columnas parejas.
+Encabezado → Flexbox para alinear y repartir en una dirección.
+Pie → Flexbox para alinear y repartir en una dirección.
 
 
 →

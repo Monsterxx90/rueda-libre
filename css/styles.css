@@ -59,14 +59,20 @@ footer {
   align-items: flex-start;
 }
 
-/*footer section {
-  flex: 1 1 15rem;
-  text-align: center;
-}*/
 
 .portada {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--espacio-l);
+  align-items: center;
   min-height: 80vh;
 }
+
+.portada img {
+  width: 100%;
+  height: auto;
+}
+
 
 /*Estilos del menú de navegación*/
 nav ul {
@@ -112,19 +118,31 @@ header nav {
 }
 
 
-/*Cuadrícula de flota*/
+/*Cuadrículas de flota y rutas*/
 
-#flota {
+#flota,
+#rutas {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   gap: var(--espacio-l);
 }
 
-#flota h2 {
+
+#flota {
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+#rutas {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+#flota h2,
+#rutas h2 {
   grid-column: 1 / -1;
 }
 
-#flota article {
+#flota article, 
+#rutas article{
   display: flex;
   flex-direction: column;
   border: 2px solid var(--titulos-encabezados);
@@ -137,7 +155,8 @@ header nav {
   align-self: flex-start;
 }
 
-#flota img {
+#flota img,
+#rutas img {
   width: 100%;
   height: auto;
 }
@@ -283,4 +302,21 @@ form textarea:focus {
 form fieldset {
   margin-bottom: var(--espacio-l);
   padding: var(--espacio-m);
+}
+
+.reservas {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--espacio-l);
+  align-items: start;
+}
+
+.datos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: var(--espacio-m);
+}
+
+.campo-completo {
+  grid-column: 1 / -1;
 }
