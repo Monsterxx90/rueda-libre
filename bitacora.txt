@@ -183,5 +183,8 @@ Problemas que solucionamos:
 -Las imágenes que se salían del contenedor las "encogimos" al ancho de su contenedor y conservamos su proporción.
 
 
+RETO 5
+
+Tiempo invertido: aproximadamente media hora. Con Bootstrap todo fue mucho más rápido y automático. Son menos "especificaciones" que hay que hacer por separado.
 
 →
