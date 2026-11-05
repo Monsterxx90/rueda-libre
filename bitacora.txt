@@ -187,4 +187,16 @@ RETO 5
 
 Tiempo invertido: aproximadamente media hora. Con Bootstrap todo fue mucho más rápido y automático. Son menos "especificaciones" que hay que hacer por separado.
 
+
+RETO 6
+
+row-cols-lg-4 → 4 columnas por fila desde 992 px
+flex-md-row → Dirección en fila desde 768 px
+d-none d-md-block → Oculta el elemento y lo muestra desde 768 px
+text-bg-success → Fondo verde y texto con contraste, en una sola clase
+py-5 → Relleno vertical de 3rem
+
+
+
+
 →
